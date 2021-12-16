@@ -189,6 +189,26 @@ int main() {
 
     benchmark1(1000000, 64, 0.75);
     // benchmark2(1000000, 64, 0.75);
+
+    benchmark1(1000000, 64, 0.875);
+
+    benchmark1(1000000, 64, 1.0);
+
+    benchmark1(1000000, 128, 0.125);
+
+    benchmark1(1000000, 128, 0.25);
+
+    benchmark1(1000000, 128, 0.375);
+
+    benchmark1(1000000, 128, 0.5);
+
+    benchmark1(1000000, 128, 0.625);
+
+    benchmark1(1000000, 128, 0.75);
+
+    benchmark1(1000000, 128, 0.875);
+
+    benchmark1(1000000, 128, 1.0);
 #endif
     return 0;
 }
